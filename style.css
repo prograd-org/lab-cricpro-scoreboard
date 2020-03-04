@@ -1,5 +1,52 @@
 /* Type your code here */
+/* Type your code here */
+.container{
+	font-size: x-large;
+	font-weight:500;
+	font-family: sans-serif;
+}
+h3{
+	color: grey;
+	border-color: black;
+}
+#box1{
+	/* background-color:orangered; */
+	/* padding:10px;
+	border:2px solid white;
+	margin:20px; */
+		/* align-self: center; 
+		justify-self: center; */
+		/* display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: start;
+		justify-items: center; */
+	/* height:100px;
+	width:100px; */
+	display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	/* top: 50px;
+	margin-left: 80px;
+	font-size: 18px; */
+	font-family: Nunito Sans;
+    font-style: normal;
+}
 
+/* change the font family and spacing as per your project font */
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	/* top:50px; */
+	 /* top: 750px;
+	margin-left: 80px; */
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+    
+}
 
 /* change the font family and spacing as per your project font */
 .footer{
