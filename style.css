@@ -1,16 +1,139 @@
 /* Type your code here */
+* {
+	padding: 0px;
+	margin-left: 30px;
 
+}
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+
+
+.cricprologo {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+}
+
+.size {
+	width: 1000px;
+	height: 600px;
+
+	background-image: url(./assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+
+
+
+}
+
+
+
+.title h1 {
+	font-size: 3em;
+	padding-left: 20px;
+	font-weight: bolder;
+	text-shadow: papayawhip;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.title h2 {
+	font-size: 1.5em;
+	padding-left: 30px;
+	font-weight: 500;
+	color: gray;
+
+
+}
+
+.container>div {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	border: solid black 1px;
+	grid-gap: 1px;
+	margin-left: 60px;
+	height: 40px;
+
+	width: 1000px;
+
+	align-items: center;
+
+
+}
+
+.row1 {
+	background: orangered;
+	color: white;
+
+}
+
+.row1 .names1,
+.row2 .names1,
+.row9 .names1 {
+	padding-left: 30px;
+}
+
+.status {
+	color: grey;
+}
+
+.row1 .names2 {
+	justify-self: flex-end;
+	padding-right: 10px;
+}
+
+.names1 {
+	display: grid;
+	justify-content: flex-start;
+	grid-template-columns: repeat(2, 1fr);
+
+}
+
+.row9,
+.row10 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.extras1 {
+	padding-left: 30px;
+}
+
+.extras2 {
+	padding-left: 80px;
+	font-weight: 700;
+}
+
+.names2:nth-child(n+1) {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	justify-content: space-between;
+	text-align: end;
+	font-weight: 700;
+	padding-right: 10px;
+	padding: 10px;
+}
+
+
+
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
-	top: 750px;
+	margin-top: 100px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+
+}
+
+.footer img {
+	width: 20px;
+	height: 10px;
 }
