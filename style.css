@@ -1,4 +1,65 @@
 /* Type your code here */
+*{
+	margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+	background-image: url("/assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+	width: 100%;
+	height:100%;
+}
+.cric{
+	height: 80px;
+}
+.logo{
+	display: flex;
+	padding-top: 30px;
+	padding-right: 50px;
+	display: flex;
+	float: right;
+}
+.cup{
+	height: 45\0px;
+	width: 100%;
+}
+#icc{
+	font-size: 40px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+#score{
+	padding-left: 50px;
+	color: gray;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.point-table{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+table{
+	border-collapse: collapse;
+	background-color: papayawhip;
+}
+th, td{
+	padding: 13px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+#head{
+	background-color: rgb(226,65,42);
+	color: papayawhip;
+}
 
 
 /* change the font family and spacing as per your project font */
@@ -14,3 +75,6 @@
     font-style: normal;
     
 }
+
+
+
