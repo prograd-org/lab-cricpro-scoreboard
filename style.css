@@ -1,16 +1,98 @@
-/* Type your code here */
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	background-image: url("./assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-size: 900px 900px;
+	background-position: right;
 
 
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	padding-bottom: 2rem;
 	top: 750px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+
+}
+
+.logo {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 5rem;
+	margin-top: 1rem;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 2.5em;
+	margin-left: 2.5rem;
+}
+
+p {
+
+	font-weight: 100;
+	color: grey;
+	font-size: 1.5em;
+	margin-top: 0rem;
+	margin-left: 2.5rem;
+}
+
+table {
+	border-spacing: 10px;
+}
+
+table,
+th,
+td {
+	border: 0px solid orange;
+
+
+}
+
+th,
+td {
+	padding: 8px;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.orange {
+	background-color: orangered;
+	padding: 5px;
+	border: 5px solid black;
+	margin: 5px;
+	height: 30px;
+	width: 30px;
+
+}
+
+.whitegrey {
+	background-color: rgb(247, 233, 233);
+	padding: 5px;
+	border: 5px solid black;
+	margin: 5px;
+	height: 30px;
+	width: 30px;
+}
+
+.box {
+	background-color: white;
+	padding: 5px;
+	border: 5px solid black;
+	margin: 5px;
+	height: 30px;
+	width: 30px;
 }
