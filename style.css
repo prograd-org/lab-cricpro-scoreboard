@@ -1,11 +1,23 @@
 /* Type your code here */
+#board{
+	font-style: italic;
+}
 
+#total{
+	border: 0px orangered;
+	font-style: normal;
+}
 
-/* change the font family and spacing as per your project font */
+th,
+td{
+	padding:10px;
+	font-weight: 600;
+	font-size: 18px;
+}
 .footer{
     display:flex;
     flex-direction: row;
-    align-content: flex-end;
+    align-content: flex-start;
 	position: relative;
 	top: 750px;
 	margin-left: 80px;
