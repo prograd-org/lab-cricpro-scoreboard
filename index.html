@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/jquery.fancybox.css">
     
 </head>
 <body>
@@ -23,7 +24,7 @@
                         <th>277-4(48.2)</th>
                     </tr>
                     <tr>
-                        <th colspan="2">Batsman</th>
+                        <th colspan="1">Batsman</th>
                         <th>R</th>
                         <th>B</th>
                         <th>4s</th>
@@ -32,7 +33,7 @@
                     </tr>
                     <tr>
                         
-                        <td><a href="assets/Player6.png" class="button">Virender Sehwag</a></td>
+                        <td><a data-fancybox data-src="#viru" href="javascript:;">Virender Sehwag</a></td>
                         <td>Ibw b L Malinga</td>
                         <td>0</td>
                         <td>2</td>
@@ -41,7 +42,7 @@
                         <td>0.00</td>
                     </tr>
                     <tr>
-                        <td><a href="assets/Player5.png" class="button">Sachin Tendulkar</a></td>
+                        <td><a data-fancybox data-src="#sachin" href="javascript:;">Sachin Tendulkar</a></td>
                         <td>c K Sangakkara b L Malinga</td>
                         <td>18</td>
                         <td>14</td>
@@ -50,7 +51,7 @@
                         <td>128.57</td>
                     </tr>
                     <tr>
-                        <td><a href="assets/Player4.png" class="button">Gautham Gambhir</a></td>
+                        <td><a data-fancybox data-src="#gauti" href="javascript:;">Gautham Gambhir</a></td>
                         <td>b T Perara</td>
                         <td>97</td>
                         <td>122</td>
@@ -59,7 +60,7 @@
                         <td>79.51</td>
                     </tr>
                     <tr>
-                        <td><a href="assets/Player3.png" class="button">Virat Kohli</a></td>
+                        <td><a data-fancybox data-src="#kohli" href="javascript:;">Virat Kohli</a></td>
                         <td>c & b T Dilshan</td>
                         <td>35</td>
                         <td>49</td>
@@ -68,7 +69,7 @@
                         <td>71.43</td>
                     </tr>
                     <tr>
-                        <td><a href="assets/Player2.png" class="button">MS Dhoni(c & wk)</a></td>
+                        <td><a data-fancybox data-src="#ms" href="javascript:;">MS Dhoni(c & wk)</a></td>
                         <td>not out</td>
                         <td>91</td>
                         <td>79</td>
@@ -77,7 +78,7 @@
                         <td>115.19</td>
                     </tr>
                     <tr>
-                        <td><a href="assets/Player1.png"class="button">Yuvaraj Singh</a></td>
+                        <td><a data-fancybox data-src="#yuvi" href="javascript:;">Yuvaraj Singh</a></td>
                         <td>not out</td>
                         <td>21</td>
                         <td>24</td>
@@ -95,7 +96,10 @@
                     </tr>
                     <tr>
                         <td>Did not bat</td>
-                    <td colspan="6"><a href="assets/Player1-1.jpg" class="button">Suresh Raina</a>,<a href="assets/Player1-2.jpg" class="button">Harbhajan Singh</a>,<a href="assets/Player1-3.jpg" class="button">Zaheer Khan</a>,<a href="assets/Player1-4.jpg" class="button">MunafPatel</a>,<a href="assets/Player1-5.jpg" class="button">S Sreesanth</a>
+                    <td colspan="6"><a data-fancybox data-src="#raina" href="javascript:;">Suresh Raina
+                    </a>,<a data-fancybox data-src="#har" href="javascript:;">Harbhajan Singh
+                    </a>,<a data-fancybox data-src="#zah" href="javascript:;">Zaheer Khan
+                    </a>,<a data-fancybox data-src="#muna" href="javascript:;">MunafPatel</a>,<a data-fancybox data-src="#sree" href="javascript:;">S Sreesanth</a>
                         </td>
                         </tr>
                 </table>
@@ -103,7 +107,42 @@
         </div>
     </div>
 </div>
-		
+    <div style="display: none;" id="viru">
+    <img src="/assets/Player6.png" />
+    </div>
+    <div style="display: none;" id="sachin">
+        <img src="/assets/Player5.png" />
+        </div>
+        <div style="display: none;" id="gauti">
+            <img src="/assets/Player4.png" />
+            </div>
+        <div style="display: none;" id="kohli">
+            <img src="assets/player3.png" />
+        </div>
+        <div style="display: none;" id="ms">
+            <img src="/assets/Player2.png" />
+        </div>
+        <div style="display: none;" id="yuvi">
+            <img src="/assets/Player1.png" />
+        </div>
+        <div style="display: none;" id="raina">
+            <img src="/assets/Player1-1.jpg" />
+        </div>
+        <div style="display: none;" id="har">
+            <img src="/assets/Player1-2.jpg" />
+        </div>
+        <div style="display: none;" id="zah">
+            <img src="/assets/Player1-3.jpg" />
+        </div>
+        <div style="display: none;" id="muna">
+            <img src="/assets/Player1-4.jpg" />
+        </div>
+        <div style="display: none;" id="sree">
+            <img src="/assets/Player1-5.jpg" />
+        </div>
+
+    
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="/assets/jquery.fancybox.js"></script>		
 </body>
 </html>
-4
