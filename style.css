@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0px;
 	padding: 5px;
 	background-image: url('./assets/background-image1.png');
@@ -7,17 +7,24 @@
 	background-size: cover;
 
 }
-.text{
+
+.text {
 	font-family: sans-serif;
 	font-weight: bold;
 	margin: 30px;
 }
-.text p{
+
+.text p {
 	color: grey;
 }
-.tb{
-	width: 80%;
+
+.tb {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-bottom: 2px solid black;
 }
-#tr1{
+
+div td .border {
 	border: 2px solid black;
 }
