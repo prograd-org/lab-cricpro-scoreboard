@@ -38,61 +38,41 @@ body {
 h1 {
 	font-weight: 800;
 	font-size: 2.5em;
-	margin-left: 2.5rem;
+	margin-left: 5.8rem;
 }
 
 p {
 
 	font-weight: 100;
-	color: grey;
+	color: rgb(61, 56, 56);
 	font-size: 1.5em;
 	margin-top: 0rem;
-	margin-left: 2.5rem;
+	margin-left: 6.2rem;
 }
 
 table {
-	border-spacing: 10px;
+	margin-left: 6em;
 }
 
-table,
-th,
-td {
-	border: 0px solid orange;
-
-
-}
 
 th,
 td {
 	padding: 8px;
 	font-weight: 600;
 	font-size: 17px;
+	border-bottom: 1px solid grey;
+
 }
 
 .orange {
 	background-color: orangered;
-	padding: 5px;
-	border: 5px solid black;
-	margin: 5px;
-	height: 30px;
-	width: 30px;
 
 }
 
 .whitegrey {
 	background-color: rgb(247, 233, 233);
-	padding: 5px;
-	border: 5px solid black;
-	margin: 5px;
-	height: 30px;
-	width: 30px;
 }
 
 .box {
 	background-color: white;
-	padding: 5px;
-	border: 5px solid black;
-	margin: 5px;
-	height: 30px;
-	width: 30px;
 }
