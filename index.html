@@ -20,16 +20,21 @@
     <main>
         <!-- Populating table as main section -->
         <table>
+            <!--class weight takes care of proper font-weight -->
             <caption class="weight"><span><span>India Innings</span><span>277-4 (48.2)</span></span></caption>
              <!-- Grouping rows according to semantics -->
             <thead>
                 <tr>
                     <!-- Using colspan to span data between columns -->
+                    <!-- class start makes it left align -->
+                    <!-- class right-space adds right padding to cell -->
                     <th colspan="2" class="start right-space">Batsman</th>
+                    <!-- class centered centers column data -->
                     <th class="centered">R</th>
                     <th class="centered">B</th>
                     <th class="centered">4s</th>
                     <th class="centered">6s</th>
+                    <!-- class end makes column data to right alignment -->
                     <th class="end">SR</th>
                 </tr>
             </thead>
@@ -38,8 +43,8 @@
                     <td> 
                         <!-- Onclicking calling javascript function with id as parameter -->
                         <a href="javascript:playerDetails('one');">Virender Sehwag</a>
-                        <!-- hiding image by default -->
-                        <img src="./assets/Player6.png" alt="" id="one" class="hide">
+                        <!-- class hide is used for hiding image by default -->
+                        <img src="./assets/Player6.png" alt="Virender Sehwag" id="one" class="hide">
                     </td>
                     <td>lbw b L Malinga</td>
                     <td class="centered weight">0</td>
@@ -53,7 +58,7 @@
                         <!-- Onclicking calling javascript function with id as parameter -->
                         <a href="javascript:playerDetails('two');">Sachin Tendulkar</a>
                         <!-- hiding image by default -->
-                        <img src="./assets/Player5.png" alt="" id="two" class="hide">
+                        <img src="./assets/Player5.png" alt="Sachin Tendulkar" id="two" class="hide">
                     </td>
                     <td>c K Sangakkara b L Malinga</td>
                     <td class="centered weight">18</td>
@@ -67,7 +72,7 @@
                         <!-- Onclicking calling javascript function with id as parameter -->
                         <a href="javascript:playerDetails('three');">Gautam Gambhir</a>
                         <!-- hiding image by default -->
-                        <img src="./assets/Player4.png" alt="" id="three" class="hide"> 
+                        <img src="./assets/Player4.png" alt="Gautam Gambhir" id="three" class="hide"> 
                     </td>
                     <td>b T Perera</td>
                     <td class="centered weight">97</td>
@@ -81,7 +86,7 @@
                         <!-- Onclicking calling javascript function with id as parameter -->
                         <a href="javascript:playerDetails('four');">Virat Kohli</a>
                         <!-- hiding image by default -->
-                        <img src="./assets/Player3.png" alt="" id="four" class="hide"> 
+                        <img src="./assets/Player3.png" alt="Virat Kohli" id="four" class="hide"> 
                     </td>
                     <td>c & b T Dilshan</td>
                     <td class="centered weight">35</td>
@@ -95,7 +100,7 @@
                         <!-- Onclicking calling javascript function with id as parameter -->
                         <a href="javascript:playerDetails('five');">MS Dhoni(c & wk)</a> 
                         <!-- hiding image by default -->
-                        <img src="./assets/Player2.png" alt="" id="five" class="hide">
+                        <img src="./assets/Player2.png" alt="MS Dhoni(c & wk)" id="five" class="hide">
                     </td>
                     <td>not out</td>
                     <td class="centered weight">91</td>
@@ -109,7 +114,7 @@
                         <!-- Onclicking calling javascript function with id as parameter -->
                         <a href="javascript:playerDetails('six');">Yuvraj Singh</a> 
                         <!-- hiding image by default -->
-                        <img src="./assets/Player1.png" alt="" id="six" class="hide">
+                        <img src="./assets/Player1.png" alt="Yuvraj Singh" id="six" class="hide">
                     </td>
                     <td>not out</td>
                     <td class="centered weight">21</td>
@@ -137,24 +142,24 @@
                         <!-- Onclicking calling javascript function with id as parameter -->
                         <a href="javascript:playerDetails('seven');">Suresh Raina,</a>
                         <!-- hiding image by default -->
-                        <img src="./assets/Player1-1.jpg" alt="" id="seven" class="hide">
+                        <img src="./assets/Player1-1.jpg" alt="Suresh Raina" id="seven" class="hide">
                         <!-- Onclicking calling javascript function with id as parameter -->
                         <a href="javascript:playerDetails('eight');">Harbhajan Singh,</a>
                         <!-- hiding image by default -->
-                        <img src="./assets/Player1-2.jpg" alt="" id="eight" class="hide">
+                        <img src="./assets/Player1-2.jpg" alt="Harbhajan Singh" id="eight" class="hide">
                         <!-- Onclicking calling javascript function with id as parameter -->
                         <a href="javascript:playerDetails('nine');">Zaheer Khan,</a>
                         <!-- hiding image by default -->
-                        <img src="./assets/Player1-3.jpg" alt="" id="nine" class="hide">
+                        <img src="./assets/Player1-3.jpg" alt="Zaheer Khan" id="nine" class="hide">
                         
                         <!-- Onclicking calling javascript function with id as parameter -->
                         <a href="javascript:playerDetails('ten');">Munaf Patel,</a>
                         <!-- hiding image by default -->
-                        <img src="./assets/Player1-4.jpg" alt="" id="ten" class="hide">
+                        <img src="./assets/Player1-4.jpg" alt="Munaf Patel" id="ten" class="hide">
                         <!-- Onclicking calling javascript function with id as parameter -->
                         <a href="javascript:playerDetails('eleven');">S Sreesant</a>
                         <!-- hiding image by default -->
-                        <img src="./assets/Player1-5.jpg" alt="" id="eleven" class="hide">
+                        <img src="./assets/Player1-5.jpg" alt="S Sreesant" id="eleven" class="hide">
                    </td>
                 </tr>
             </tfoot>
