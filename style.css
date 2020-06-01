@@ -1,16 +1,164 @@
 /* Type your code here */
+/* Importing font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
 
+/* Reseting CSS */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Setting background, font and spacing */
+body{
+	background-image:url(assets/background-image1.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 10px;
+	font-family: 'Nunito Sans', sans-serif;
+	padding: 2em 9em;
+}
+
+/*positioning logo*/
+nav{
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*Setting case,size and shadow for h1 text*/
+h1{
+	text-transform: uppercase;
+	font-size: 5em;
+	text-shadow: 0px 2px 2px #838383;
+}
+
+/*Setting size , color and weight to h2*/
+h2{
+	font-size: 2.5em;
+	color: #808080;
+	font-weight: 600;
+}
+
+/*setting size of text, background and spacing for table*/
+table{
+	font-size: 2em;
+	background-color: #ffffff;
+	margin: 1.4em 0;
+	border-collapse: collapse;
+	
+}
+/*setting background and text color for caption*/
+caption{
+	background-color: #f05136;
+	color: #ffffff;
+}
+
+/*Resetting decoration and adding text color to player name*/
+a{
+	text-decoration: none;
+	color: #65a1f2;
+}
+
+/*styling 2nd column with text color*/
+tbody>tr>td:nth-child(2){
+	color: #808080;
+
+}
+
+/*setting padding to table cells*/
+td,th,caption{
+	padding:0.5em;
+}
+
+/*Styling rows with border at bottom */
+table tr{
+	border-bottom: 1px solid #d3d3d3;
+}
+
+/*removing border from last row*/
+tfoot>tr:last-of-type{
+	border: none;
+}
+
+/*Styling certain columns text to center as per requirement*/
+.centered{
+	text-align: center;
+}
+/*aligning first heading to left*/
+.start{
+	text-align: left;
+}
+/*aligning last column to right*/
+.end{
+	text-align: right;
+}
+/*hiding images by default*/
+.hide{
+	display:none;
+}
+/*class need to display images*/
+.show{
+	position: absolute;
+	display: block;
+}
+/*positioning the content using flexbox*/
+main,footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+/*positioning caption elements using flex*/
+caption>span{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*setting weight of data in a column R*/
+.weight{
+	font-weight: 600;
+}
+
+/* Spacing first column*/
+tbody a,tfoot>tr:last-child>td:first-child{
+	padding-right: 3em !important;
+}
+
+/*spacing 2nd column*/
+tbody>tr>td:nth-child(2),.right-space{
+	padding-right: 6.5em !important;
+}
+/*Avoiding spacing to affect players name at bottom*/
+tfoot a{
+	padding-right: 0 !important;
+}
+
+/*spacing all the remaining column commonly as they can not override spacing of first and 2nd column*/
+th,td{
+	padding-right: 2em;
+}
+/*adding spacing to last column*/
+.end{
+	padding-right: 1em;
+}
+/*reducing spacing of second last column*/
+thead>tr>th:nth-child(5),tbody>tr>td:nth-child(6){
+	padding-right:1em;
+}
 
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
 	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+}
+/*giving padding to footer elements*/
+.footer *{
+	padding-right: 0 1em;
+}
+.footer img{
+	margin: 0 0.5em;
 }
