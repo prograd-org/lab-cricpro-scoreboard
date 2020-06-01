@@ -3,11 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cricpro Scorebord</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Type your code here -->
-    <footer class="footer">Made with <img src="/assets/prograd-heart.svg"> by ProGrad</footer>
+    <!-- setting Logo image-->
+    <nav>
+        <img src="./assets/Logo.JPG" alt="CricPro-logo">
+    </nav>
+    <!-- setting Header section -->
+    <header>
+        <h1>icc world cup 2011</h1>
+        <h2>India Vs SriLanka ScoreCard</h2>
+    </header>
+    <main>
+        <!-- Populating table as main section -->
+        <table>
+            <caption class="weight"><span><span>India Innings</span><span>277-4 (48.2)</span></span></caption>
+             <!-- Grouping rows according to semantics -->
+            <thead>
+                <tr>
+                    <!-- Using colspan to span data between columns -->
+                    <th colspan="2" class="start right-space">Batsman</th>
+                    <th class="centered">R</th>
+                    <th class="centered">B</th>
+                    <th class="centered">4s</th>
+                    <th class="centered">6s</th>
+                    <th class="end">SR</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 
+                        <!-- Onclicking calling javascript function with id as parameter -->
+                        <a href="javascript:playerDetails('one');">Virender Sehwag</a>
+                        <!-- hiding image by default -->
+                        <img src="./assets/Player6.png" alt="" id="one" class="hide">
+                    </td>
+                    <td>lbw b L Malinga</td>
+                    <td class="centered weight">0</td>
+                    <td class="centered">2</td>
+                    <td class="centered">0</td>
+                    <td class="centered">0</td>
+                    <td class="end">0.00</td>
+                </tr>
+                <tr>
+                    <td> 
+                        <!-- Onclicking calling javascript function with id as parameter -->
+                        <a href="javascript:playerDetails('two');">Sachin Tendulkar</a>
+                        <!-- hiding image by default -->
+                        <img src="./assets/Player5.png" alt="" id="two" class="hide">
+                    </td>
+                    <td>c K Sangakkara b L Malinga</td>
+                    <td class="centered weight">18</td>
+                    <td class="centered">14</td>
+                    <td class="centered">2</td>
+                    <td class="centered">0</td>
+                    <td class="end">128.57</td>
+                </tr>
+                <tr>
+                    <td> 
+                        <!-- Onclicking calling javascript function with id as parameter -->
+                        <a href="javascript:playerDetails('three');">Gautam Gambhir</a>
+                        <!-- hiding image by default -->
+                        <img src="./assets/Player4.png" alt="" id="three" class="hide"> 
+                    </td>
+                    <td>b T Perera</td>
+                    <td class="centered weight">97</td>
+                    <td class="centered">122</td>
+                    <td class="centered">9</td>
+                    <td class="centered">0</td>
+                    <td class="end">79.51</td>
+                </tr>
+                <tr>
+                    <td> 
+                        <!-- Onclicking calling javascript function with id as parameter -->
+                        <a href="javascript:playerDetails('four');">Virat Kohli</a>
+                        <!-- hiding image by default -->
+                        <img src="./assets/Player3.png" alt="" id="four" class="hide"> 
+                    </td>
+                    <td>c & b T Dilshan</td>
+                    <td class="centered weight">35</td>
+                    <td class="centered">49</td>
+                    <td class="centered">4</td>
+                    <td class="centered">0</td>
+                    <td class="end">71.43</td>
+                </tr>
+                <tr>
+                    <td> 
+                        <!-- Onclicking calling javascript function with id as parameter -->
+                        <a href="javascript:playerDetails('five');">MS Dhoni(c & wk)</a> 
+                        <!-- hiding image by default -->
+                        <img src="./assets/Player2.png" alt="" id="five" class="hide">
+                    </td>
+                    <td>not out</td>
+                    <td class="centered weight">91</td>
+                    <td class="centered">79</td>
+                    <td class="centered">8</td>
+                    <td class="centered">2</td>
+                    <td class="end">115.19</td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Onclicking calling javascript function with id as parameter -->
+                        <a href="javascript:playerDetails('six');">Yuvraj Singh</a> 
+                        <!-- hiding image by default -->
+                        <img src="./assets/Player1.png" alt="" id="six" class="hide">
+                    </td>
+                    <td>not out</td>
+                    <td class="centered weight">21</td>
+                    <td class="centered">24</td>
+                    <td class="centered">2</td>
+                    <td class="centered">0</td>
+                    <td class="end">87.50</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="right-space">
+                    <!-- Using colspan to span data between columns -->
+                    <td colspan="2">Extras</td>
+                    <td colspan="5"><span class="weight">15</span> (b 1, lb 6, w 8, nb 0, p 0)</td>
+                </tr>
+                <tr>
+                    <!-- Using colspan to span data between columns -->
+                    <td colspan="2" class="right-space">Total</td>
+                    <td colspan="5"><span class="weight">277</span> (4 wkts, 48.2 Ov)</td>
+                </tr>
+                <tr>
+                    <td>Did not bat</td>
+                    <!-- Using colspan to span data between columns -->
+                    <td colspan="6">
+                        <!-- Onclicking calling javascript function with id as parameter -->
+                        <a href="javascript:playerDetails('seven');">Suresh Raina,</a>
+                        <!-- hiding image by default -->
+                        <img src="./assets/Player1-1.jpg" alt="" id="seven" class="hide">
+                        <!-- Onclicking calling javascript function with id as parameter -->
+                        <a href="javascript:playerDetails('eight');">Harbhajan Singh,</a>
+                        <!-- hiding image by default -->
+                        <img src="./assets/Player1-2.jpg" alt="" id="eight" class="hide">
+                        <!-- Onclicking calling javascript function with id as parameter -->
+                        <a href="javascript:playerDetails('nine');">Zaheer Khan,</a>
+                        <!-- hiding image by default -->
+                        <img src="./assets/Player1-3.jpg" alt="" id="nine" class="hide">
+                        
+                        <!-- Onclicking calling javascript function with id as parameter -->
+                        <a href="javascript:playerDetails('ten');">Munaf Patel,</a>
+                        <!-- hiding image by default -->
+                        <img src="./assets/Player1-4.jpg" alt="" id="ten" class="hide">
+                        <!-- Onclicking calling javascript function with id as parameter -->
+                        <a href="javascript:playerDetails('eleven');">S Sreesant</a>
+                        <!-- hiding image by default -->
+                        <img src="./assets/Player1-5.jpg" alt="" id="eleven" class="hide">
+                   </td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer class="footer">Made with <img src="./assets/prograd-heart.svg"> by ProGrad</footer>
+     <!-- Adding javascript at the end to take effect -->
+    <script src="./home.js"></script>
 </body>
 </html>
