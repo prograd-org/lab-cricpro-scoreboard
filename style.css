@@ -1,16 +1,149 @@
 /* Type your code here */
 
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background-image: url(./assets/background-image1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-size: cover;
+  clear: both;
+  padding: 0px;
+  margin: 100px;
+  left: 200px;
+}
+
+body #logo {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  background: url(./assets/Logo.JPG);
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-color: white;
+}
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+
+H1 {
+  font-weight: 900;
+  font-size: 5em;
+  font-style: inherit;
+}
+
+h3 {
+  font-size: 2.5em;
+  font-style: inherit;
+  color: gray;
+}
+
+header {
+  display: grid;
+  grid-gap: 0px;
+}
+
+#scorecard {
+  font-size: 1.7em;
+}
+
+.line1 {
+  font-size: 1.5em;
+  display: flex;
+  background-color: red;
+  color: white;
+  width: 65%;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.line2 {
+  display: grid;
+  grid-template-columns: 600px 50px 50px 50px 80px 0px;
+  font-weight: 600;
+  background-color: white;
+  width: 870px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+.Batsman {
+  display: grid;
+  grid-template-columns: 250px 350px 50px 50px 50px 65px 0px;
+  font-weight: 600;
+  background-color: white;
+  width: 870px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.lite {
+  font-weight: 400;
+  color: gray;
+}
+hr {
+  width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exline {
+  width: 400px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.Extras {
+  font-size: 1em;
+  display: flex;
+  background-color: white;
+  width: 65%;
+  justify-content: space-between;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.lastline {
+  font-size: 1em;
+  display: flex;
+  background-color: white;
+  width: 65%;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  top: 750px;
+  margin-left: 60px;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
 }
