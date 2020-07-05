@@ -1,16 +1,148 @@
 /* Type your code here */
 
-
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background: url("/assets/background-image1.png");
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: right;
+  /* background-position: right bottom // 100% 100%;  ---> didn't work */
+}
+
+#logo {
+  float: right;
+  padding-top: 10px;
+  padding-right: 70px;
+}
+
+#title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 2px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2.4em;
+  text-shadow: 0.5px 3px 5px grey;
+}
+
+p {
+  color: rgb(116, 115, 115);
+  font-weight: 700;
+  font-size: 19px;
+}
+
+#scoreCard {
+  display: grid;
+  width: 60%;
+  height: 450px;
+}
+
+.topline {
+  display: grid;
+  grid-template-columns: 5fr 0.8fr;
+  padding: 10px;
+  background-color: orangered;
+  color: white;
+}
+
+.player {
+  display: grid;
+  grid-template-columns: 4fr 5fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  border: 0.5px solid lightgrey;
+  background-color: white;
+}
+
+a:visited {
+  color: rgb(0, 183, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+.bowler {
+  color: gray;
+}
+
+.extras,
+.total {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 4.1fr 2.3fr;
+  padding: 10px;
+  border: 0.5px solid lightgrey;
+}
+
+.didnotbat {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1.4fr 3.5fr;
+  padding: 10px;
+  border: 0.5px solid lightgrey;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  position: relative;
+  top: 50px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  padding-top: 20px;
+}
+
+#heart {
+  padding: 6px;
+}
+
+.popupBox {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  transition: opacity 500ms;
+  opacity: 0;
+}
+
+.popupBox:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* cross button */
+.popup .link {
+  position: absolute;
+  top: 80px;
+  right: 380px;
+  transition: all 200ms;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  color: azure;
+}
+
+/* popup box adjustment in the middle */
+.popup .content {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
 }
