@@ -1,13 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CricPro</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <div>
+            <img src="assets/Logo.JPG" alt="CricPro Logo">
+        </div>
+    </header>
+    <section>
+        <h1>ICC WORLD CUP 2011</h1>
+        <h4>India Vs SriLanka ScoreCard</h4>
+    </section>
+    <section class="last-section">
+        <div>
+            <table CELLSPACING=0>
+                <tr>
+                    <td colspan="5">India Innings</td>
+                    <td colspan="2">277 - 4 (48.2)</td>
+                </tr>
+                <tr>
+                    <td class="bold" colspan="2">Batsman</td>
+                    <td>R</td>
+                    <td>B</td>
+                    <td>4s</td>
+                    <td>6s</td>
+                    <td>SR</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="VS">Virender Sehwag</p>
+                    </td>
+                    <td class="out">lbw b L Malinga</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0.00</td>
+                </tr>
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img id="player" src="" alt="">
+                    </div>
+
+                </div>
+                <tr>
+                    <td>
+                        <p id="ST">Sachin Tendulkar</p>
+                    </td>
+                    <td class="out">c K Sangakara b L Malinga</td>
+                    <td>18</td>
+                    <td>14</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>128.57</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="GG">Gautam Gambhir</p>
+                    </td>
+                    <td class="out">b T Perera</td>
+                    <td>97</td>
+                    <td>122</td>
+                    <td>9</td>
+                    <td>0</td>
+                    <td>79.51</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="VK">Virat Kohli</p>
+                    </td>
+                    <td class="out">c & b T Dilshan</td>
+                    <td>35</td>
+                    <td>49</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>71.43</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="MD">MS Dhoni (c & wk)</p>
+                    </td>
+                    <td class="out">not out</td>
+                    <td>91</td>
+                    <td>79</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>115.19</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="YV">Yuvraj Singh</p>
+                    </td>
+                    <td class="out">not out</td>
+                    <td>21</td>
+                    <td>24</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>87.50</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Extras</td>
+                    <td colspan="5">15 (b 1, lb 6, w 8, nb 0, p 0)</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td colspan="5">277 (4 wkts, 48.2 Ov)</td>
+                </tr>
+                <tr>
+                    <td>Did not bat</td>
+                    <td colspan="6">
+                        <p id="SR">Suresh Raina</p>, <p id="HS">Harbhajan Singh</p>, <p id="ZK">Zaheer Khan</p>
+                        , <p id="MP">Munaf Patel</p>, <p id="SS">S Sreesanth</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
     <!-- Type your code here -->
-    <footer class="footer">Made with <img src="/assets/prograd-heart.svg"> by ProGrad</footer>
+    <footer class="footer">Made with &nbsp;<img src="assets/prograd-heart.svg">&nbsp; by ProGrad</footer>
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var VS = document.getElementById("VS");
+        var ST = document.getElementById("ST");
+        var GG = document.getElementById("GG");
+        var VK = document.getElementById("VK");
+        var MD = document.getElementById("MD");
+        var YV = document.getElementById("YV");
+        var SR = document.getElementById("SR");
+        var HS = document.getElementById("HS");
+        var ZK = document.getElementById("ZK");
+        var MP = document.getElementById("MP");
+        var SS = document.getElementById("SS");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        VS.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("player").src = "assets/Player6.png";
+            document.getElementById("player").alt = "Virendar Shehvag";
+        }
+
+        ST.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("player").src = "assets/Player5.png";
+            document.getElementById("player").alt = "Sachin Tendulkar";
+        }
+        GG.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("player").src = "assets/Player4.png";
+            document.getElementById("player").alt = "Gautam Ganguli";
+        }
+        VK.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("player").src = "assets/Player3.png";
+            document.getElementById("player").alt = "Virat Kohli";
+        }
+        MD.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("player").src = "assets/Player2.png";
+            document.getElementById("player").alt = "M S Dhoni";
+        }
+        YV.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("player").src = "assets/Player1.png";
+            document.getElementById("player").alt = "Yuvraj Singh";
+        }
+        SR.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("player").src = "assets/Player1-1.jpg";
+            document.getElementById("player").alt = "Suresh Raina";
+        }
+        HS.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("player").src = "assets/Player1-2.jpg";
+            document.getElementById("player").alt = "Harbhajan Singh";
+        }
+        ZK.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("player").src = "assets/Player1-3.jpg";
+            document.getElementById("player").alt = "Zaheer Khan";
+        }
+        MP.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("player").src = "assets/Player1-4.jpg";
+            document.getElementById("player").alt = "Munaf Patel";
+        }
+        SS.onclick = function () {
+            modal.style.display = "block";
+            document.getElementById("player").src = "assets/Player1-5.jpg";
+            document.getElementById("player").alt = "S Sreesanth";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
+
 </html>
