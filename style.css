@@ -1,16 +1,113 @@
 /* Type your code here */
 
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	height: 800px;
+
+	background-image: url(./assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-position-x: right;
+
+}
+
+nav {
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 30px;
+}
+
+header {
+	margin-left: 60px;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 700;
+	text-shadow: 3px 3px rgb(184, 181, 181);
+}
+
+h4 {
+	font-size: 23px;
+	color: rgb(136, 128, 128);
+}
+
+section {
+	margin-left: 60px;
+}
+
+table {
+	background-color: white;
+	margin-top: 50px;
+	width: 70%;
+	border-collapse: collapse;
+
+}
+
+tr {
+
+	border: 1px solid rgb(90, 89, 89);
+	padding: 12px;
+	text-align: center;
+	font-weight: 540;
+
+
+}
+
+
+
+td {
+	padding: 12px;
+}
+
+tr:nth-child(1) {
+	background-color: orangered;
+	color: white;
+	padding: 12px;
+	font-weight: 540;
+
+}
+
+
+.sr {
+	text-align: right;
+}
+
+.cd {
+	text-align: left;
+	color: gray;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(74, 74, 247);
+	text-align: left;
+
+}
+
+.tt {
+	text-align: left;
+}
+
+
+
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	top: 100px;
+	margin-left: 60px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+
 }
