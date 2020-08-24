@@ -106,13 +106,9 @@ td:nth-child(1)
 
 /* change the font family and spacing as per your project font */
 .footer{
-    display:flex;
-    flex-direction: row;
     margin-top: 20px;
 	font-size: 18px;
 	margin-left: 80px;
 	font-family: 'Nunito Sans';
-	font-style: normal;
 	margin-bottom: 10px;
-    
 }
