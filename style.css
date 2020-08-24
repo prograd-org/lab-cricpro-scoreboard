@@ -9,6 +9,9 @@
 body {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 16px;
+	background-image: url('assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
 }
 
 .navbar {
@@ -17,12 +20,6 @@ body {
 	margin: 50px 50px 0 0;
 }
 
-section>div>img {
-	position: absolute;
-	z-index: -1;
-	right: 0;
-	bottom: 0;
-}
 
 section {
 	margin-left: 10%;
@@ -41,7 +38,8 @@ h3 {
 }
 
 table {
-	margin: 20px 0;
+	margin: 20px 0 60px 0;
+
 	border-spacing: 0;
 	vertical-align: middle;
 	border: 1px solid #ddd;
@@ -96,7 +94,8 @@ table thead tr:nth-child(2) {
 
 .name:hover:after {
 	position: absolute;
-	left: 10em;
+	left: 5em;
+	top: 18px;
 
 }
 
@@ -155,7 +154,7 @@ span {
 	flex-direction: row;
 	align-content: flex-end;
 	position: absolute;
-	top: 660px;
+	top: 650px;
 	margin-left: 140px;
 	font-style: normal;
 
