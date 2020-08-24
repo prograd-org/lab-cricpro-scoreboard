@@ -1,16 +1,118 @@
-/* Type your code here */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+ul
+{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	background-color: transparent;
+}
+ul>li
+{
+	padding: 15px 20px;
+}
+header
+{
+	display: flex;
+	flex-direction: column;
+	margin-left:70px ;
+	margin-top: 1px;
+}
+h1
+{
+	font-weight: 900;
+	font-family: 'Nunito Sans';
+	font-size: 3em;
+	text-shadow: 2px 2px gray;
+}
+h3
+{
+	font-size: 1.5em;
+	font-family: 'Nunito Sans';
+	color: gray;
+	font-weight:800;
+}
+section
+{
+	height: 700px;
+	width: 100%;
+	background-size: 70% 600px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-image: url(/assets/background-image1.png);
+	
+}
+table
+{
+	margin-left:70px;
+	margin-top: 20px;
+	border-collapse: collapse;
+	width: 65%;
+	box-shadow: -5px 6px 5px 0px rgba(0,0,0,0.19);
+}
+a{
+	text-decoration: none;
+	color: rgb(45, 145, 179);
+}
+
+td
+{
+	padding: 13px;
+	font-family: 'Nunito Sans', sans-serif;
+}
+.heading1 td:last-child
+{
+	width: 2px;
+}
+
+.heading
+{
+    color: white;
+	background: orangered;
+}
+.heading :nth-child(2)
+{
+	text-align: right;
+}
+.heading1
+{
+	background-color: rgb(242, 248, 248);
+	border-bottom: 2px solid lightgray;
+}
+.heading2
+{
+	background-color: white;
+	border-bottom: 2px solid lightgray;
+}
+td:nth-child(1)
+{
+	text-align: left;
+}
+.out
+{
+	color: gray;
+	text-align: left;
+}
+.right
+{
+	text-align: right;
+}
 
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
     flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
+    margin-top: 20px;
 	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
+	margin-left: 80px;
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	margin-bottom: 10px;
     
 }
