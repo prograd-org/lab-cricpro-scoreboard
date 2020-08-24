@@ -1,16 +1,89 @@
 /* Type your code here */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.background-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+img:nth-child(2) {
+  position: absolute;
+  top: 20px;
+  right: 70px;
+}
+
+h1 {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-shadow: 3px 3px 3px grey;
+}
+
+h2 {
+  position: absolute;
+  top: 125px;
+  left: 80px;
+  color: grey;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  position: absolute;
+  top: 700px;
+  margin-left: 80px;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
+}
+
+table {
+  border-collapse: collapse;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  width: 72%;
+}
+
+tr {
+  font-family: Nunito Sans;
+  font-size: 18px;
+}
+
+.heading>td {
+  background: orangered;
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.first>td {
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 3px solid lightgrey;
+  font-weight: 700;
+}
+
+.first>td>a {
+  color: skyblue;
+  text-decoration: none;
+  font-weight: 400;
+}
 
 
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+.second {
+  color: grey;
+  font-weight: 300;
 }
