@@ -6,6 +6,7 @@
 	margin: 0;
 }
 
+/* Setting font defaults for page and also using background image in body */
 body {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 16px;
@@ -14,6 +15,7 @@ body {
 	background-position: bottom right;
 }
 
+/* Bringing the logo to the right end of page */
 .navbar {
 	display: flex;
 	justify-content: flex-end;
@@ -25,7 +27,7 @@ section {
 	margin-left: 10%;
 }
 
-
+/* Giving shadow effect to H1 tag */
 h1 {
 	font-weight: 900;
 	font-size: 2em;
@@ -37,6 +39,7 @@ h3 {
 	font-size: 0.9em;
 }
 
+/* Applying basic styles to tables */
 table {
 	margin: 20px 0 60px 0;
 
@@ -52,26 +55,30 @@ table {
 	font-size: 0.9em;
 }
 
+/* Giving padding and border to cells */
 th,
 td {
 	padding: 10px 15px 10px 15px;
 	border-bottom: 1px solid #ddd;
 }
 
+/* Applying color to first row of table */
 table thead tr:first-child {
 	background-color: #ee6f57;
 	color: white;
 }
 
-
+/* Applying color to second row of table */
 table thead tr:nth-child(2) {
 	background-color: #f4f4f4;
 }
 
+/* Setting font weigt for top two rows of table */
 .head-1,
 .head-2 {
 	font-weight: 200;
 }
+
 
 .head-2 {
 	text-align: right;
@@ -81,6 +88,8 @@ table thead tr:nth-child(2) {
 	color: #838383;
 }
 
+
+/* styles for showing image pop up when hovered over players name */
 .name {
 	color: #00bcd4;
 	cursor: pointer;
