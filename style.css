@@ -1,16 +1,170 @@
 /* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* Setting font defaults for page and also using background image in body */
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	background-image: url('assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+/* Bringing the logo to the right end of page */
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	margin: 50px 50px 0 0;
+}
+
+
+section {
+	margin-left: 10%;
+}
+
+/* Giving shadow effect to H1 tag */
+h1 {
+	font-weight: 900;
+	font-size: 2em;
+	filter: drop-shadow(0px 3px 3px grey);
+}
+
+h3 {
+	color: grey;
+	font-size: 0.9em;
+}
+
+/* Applying basic styles to tables */
+table {
+	margin: 20px 0 60px 0;
+
+	border-spacing: 0;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	background-color: white;
+	font-weight: 700;
+	text-align: left;
+	vertical-align: center;
+	width: 65%;
+	font-size: 0.9em;
+}
+
+/* Giving padding and border to cells */
+th,
+td {
+	padding: 10px 15px 10px 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+/* Applying color to first row of table */
+table thead tr:first-child {
+	background-color: #ee6f57;
+	color: white;
+}
+
+/* Applying color to second row of table */
+table thead tr:nth-child(2) {
+	background-color: #f4f4f4;
+}
+
+/* Setting font weigt for top two rows of table */
+.head-1,
+.head-2 {
+	font-weight: 200;
+}
+
+
+.head-2 {
+	text-align: right;
+}
+
+.details {
+	color: #838383;
+}
+
+
+/* styles for showing image pop up when hovered over players name */
+.name {
+	color: #00bcd4;
+	cursor: pointer;
+
+}
+
+.name:hover {
+	position: relative;
+	background-color: #eeeeee;
+}
+
+.name:hover:after {
+	position: absolute;
+	left: 5em;
+	top: 18px;
+
+}
+
+.profile-1:hover:after {
+	content: url("assets/Player6.png");
+}
+
+.profile-2:hover:after {
+	content: url("assets/Player5.png");
+}
+
+.profile-3:hover:after {
+	content: url("assets/Player4.png");
+}
+
+.profile-4:hover:after {
+	content: url("assets/Player3.png");
+}
+
+.profile-5:hover:after {
+	content: url("assets/Player2.png");
+}
+
+.profile-6:hover:after {
+	content: url("assets/Player1.png");
+}
+
+.profile-7:hover:after {
+	content: url("assets/Player1-1.jpg");
+}
+
+.profile-8:hover:after {
+	content: url("assets/Player1-2.jpg");
+}
+
+.profile-9:hover:after {
+	content: url("assets/Player1-3.jpg");
+}
+
+.profile-10:hover:after {
+	content: url("assets/Player1-4.jpg");
+}
+
+.profile-11:hover:after {
+	content: url("assets/Player1-5.jpg");
+}
+
+span {
+	padding: 5px;
+}
 
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	position: absolute;
+	top: 650px;
+	margin-left: 140px;
+	font-style: normal;
+
 }
