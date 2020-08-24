@@ -1,16 +1,162 @@
 /* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	margin: 50px 50px 0 0;
+}
+
+section>div>img {
+	position: absolute;
+	z-index: -1;
+	right: 0;
+	bottom: 0;
+}
+
+section {
+	margin-left: 10%;
+}
+
+
+h1 {
+	font-weight: 900;
+	font-size: 2em;
+	filter: drop-shadow(0px 3px 3px grey);
+}
+
+h3 {
+	color: grey;
+	font-size: 0.9em;
+}
+
+table {
+	margin: 20px 0;
+	border-spacing: 0;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	background-color: white;
+	font-weight: 700;
+	text-align: left;
+	vertical-align: center;
+	width: 65%;
+	font-size: 0.9em;
+}
+
+th,
+td {
+	padding: 10px 15px 10px 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+table thead tr:first-child {
+	background-color: #ee6f57;
+	color: white;
+}
+
+
+table thead tr:nth-child(2) {
+	background-color: #f4f4f4;
+}
+
+.head-1,
+.head-2 {
+	font-weight: 200;
+}
+
+.head-2 {
+	text-align: right;
+}
+
+.details {
+	color: #838383;
+}
+
+.name {
+	color: #00bcd4;
+	cursor: pointer;
+
+}
+
+.name:hover {
+	position: relative;
+	background-color: #eeeeee;
+}
+
+.name:hover:after {
+	position: absolute;
+	left: 10em;
+
+}
+
+.profile-1:hover:after {
+	content: url("assets/Player6.png");
+}
+
+.profile-2:hover:after {
+	content: url("assets/Player5.png");
+}
+
+.profile-3:hover:after {
+	content: url("assets/Player4.png");
+}
+
+.profile-4:hover:after {
+	content: url("assets/Player3.png");
+}
+
+.profile-5:hover:after {
+	content: url("assets/Player2.png");
+}
+
+.profile-6:hover:after {
+	content: url("assets/Player1.png");
+}
+
+.profile-7:hover:after {
+	content: url("assets/Player1-1.jpg");
+}
+
+.profile-8:hover:after {
+	content: url("assets/Player1-2.jpg");
+}
+
+.profile-9:hover:after {
+	content: url("assets/Player1-3.jpg");
+}
+
+.profile-10:hover:after {
+	content: url("assets/Player1-4.jpg");
+}
+
+.profile-11:hover:after {
+	content: url("assets/Player1-5.jpg");
+}
+
+span {
+	padding: 5px;
+}
 
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	position: absolute;
+	top: 660px;
+	margin-left: 140px;
+	font-style: normal;
+
 }
