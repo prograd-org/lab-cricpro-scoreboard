@@ -3,14 +3,118 @@
 
 /* change the font family and spacing as per your project font */
 .footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
 	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: normal;
+	grid-row-start: 5;
+	grid-row-end: 6;
+	grid-column-start: 2; 
+	grid-column-end: 3;
+	font-size: 15px;
+	padding-top: 10px;
     
+}
+.body{
+	display:grid;
+	grid-template-columns: 2% 20% 13% 15% 22% 28%;
+	grid-template-rows: 6% 10% 12% 64% 6%;
+}
+.back_image{
+grid-row-start: 3;
+grid-row-end: 6;
+grid-column-start: 4;
+grid-column-end: 7;
+}
+.logo{
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 6;
+	grid-column-end: 7;
+}
+.world_cup{
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 40px;
+	text-shadow: 3px 3px 3px rgb(124, 122, 122);
+}
+.scorecard_title{
+	display: flex;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 2; 
+	grid-column-end: 4;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20px;
+	color: grey; 
+	align-items: flex-end;
+}
+
+.scoreboard{
+	display: grid;
+	grid-template-columns: 30% 30% 1fr 1fr 1fr 1fr 1fr; 
+	grid-template-rows: repeat(11,1fr);
+	border: 1px;
+	grid-row-gap: 1px;
+	background-color: rgba(224, 220, 220, 0.938);
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: normal;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 2;
+	grid-column-end: 6;
+}
+
+.score-head{
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	background-color: orangered;
+	color: white;
+	align-items: center;
+	padding-left: 10px;
+}
+.test{
+	display: grid;
+	background-color: white;
+	font-family: 'Nunito Sans', sans-serif;
+	align-items: center;
+	padding-left: 10px;
+}
+
+.score-head1{
+	display: grid;
+	grid-column-start: 6;
+	grid-column-end: 8;
+	background-color: orangered;
+	color: white;
+	align-items: center;
+}
+.batsman{
+	grid-column-start:1 ;
+	grid-column-end: 3;
+}
+.name{
+	color:rgb(1, 118, 228);
+	
+}
+.extras{
+    grid-column-start: 3;
+    grid-column-end: 8;
+}
+.total{
+	grid-column-start: 3;
+	grid-column-end: 8;
+}
+.not-bat{
+	grid-column-start:2 ;
+	grid-column-end: 8;
+}
+.out{
+	color:rgba(158, 154, 154, 0.856);;
 }
