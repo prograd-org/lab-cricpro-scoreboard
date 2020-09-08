@@ -46,7 +46,7 @@ td {
 
 table {
 	border: 1px solid white;
-	background-color: ivory;
+	background-color:white;
 }
 
 
@@ -72,15 +72,6 @@ a {
 
 
 
-.footer {
-	display: flex;
-	flex-direction: row;
-	align-content: flex-end;
-	position: relative;
-	top:
-		margin-left: 20px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-	font-style: normal;
-
+.foooter {
+margin-left:34px;
 }
