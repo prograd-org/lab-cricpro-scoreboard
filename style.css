@@ -1,16 +1,122 @@
-/* Type your code here */
+* {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+}
+h1 {
+  text-shadow: 2px 2px grey;
+  font-weight: 700;
+  font-size: 40px;
+  padding-left: 50px;
+}
+h2 {
+  padding-left: 50px;
+  position: relative;
+  color: gray;
+  bottom: 70px;
+  font-size: 20px;
+}
 
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 30px;
+}
+#pic {
+  padding-left: 500px;
+  height: 70%;
+}
+.data {
+  position: relative;
+  bottom: 500px;
+  padding-left: 50px;
+}
+th {
+  text-align: left;
+  vertical-align: top;
+}
+
+.innings {
+  background-color: orangered;
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+}
+table {
+  background-color: white;
+  height: 100px;
+  position: relative;
+  bottom: 80px;
+}
+tr,
+td {
+  border-bottom: 1px solid #ddd;
+  height: 40px;
+}
+.batsman {
+  background-color: lightgrey;
+}
+
+.name2 {
+  color: grey;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.name {
+  color: black;
+  font-size: 20px;
+}
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: blue;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  align-content: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: relative;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  position: relative;
+  bottom: 500px;
+  margin-left: 80px;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
 }
