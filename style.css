@@ -1,16 +1,108 @@
 /* Type your code here */
+*{
+    margin: 0;
+	padding: 0;
+	
+}
+body{
+    height: 100%;
+	width: 100%;
+	font-family: 'Arial',sans-serif;
+	font-size: 15px;
 
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.table-header{
+	background-color: rgb(243, 95, 41);
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(112, 182, 209);
+}
+
+.main{
+	height: 100%;
+	width: 100%;
+	
+}
+
+.image{
+	width:100%;
+	height:100%;
+	position: fixed;
+	
+	
+}
+.cricpro-logo{
+	display:flex;
+	justify-content: flex-end;
+	margin-top:20px;
+	margin-right:50px;
+
+	
+}
+.header{
+	position: absolute;
+	top:10%;
+
+}
+
+h1{
+	font-weight: 900;
+	color: black;
+
+}
+
+h3{
+	color: darkgray;
+	font-weight: bold;
+
+}
+
+table {
+	position: absolute;
+	border-collapse: collapse;
+	top: 25%;
+	background-color: white;
+	width: 900px;
+}
+
+.fcolor{
+	color:grey;
+}
+
+tr{
+	border: 1px solid lightgray;
+	border-left: none;
+	border-right: none;
+}
+
+.text-position{
+	text-align: right;
+	padding-right: 20px;
+}
+tr td, tr th {
+	text-align: left;
+	padding: 10px;
+
+}
 
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	position: absolute;
+	top: 580px;
+	margin-left: 60px;
 	font-size: 18px;
-	font-family: Nunito Sans;
+	font-family: 'Arial',sans-serif;
     font-style: normal;
     
 }
