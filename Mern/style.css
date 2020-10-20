@@ -1,0 +1,68 @@
+/* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,800;0,900;1,800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("./assets/background-image1.png");
+	background-size: cover;
+	font-family: 'Nunito Sans', sans-serif;
+	background-repeat: no-repeat;
+}
+
+.container {
+	margin: 30px;
+	padding: 10px;
+}
+
+#container2 {
+	width: 100%;
+	margin: 30px;
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+
+td {
+	border-bottom: 0.5px solid rgb(153, 149, 149);
+	border-collapse: collapse;
+}
+
+table {
+	border: 1px solid white;
+	background-color: white;
+}
+
+table,
+th,
+td {
+	border-collapse: collapse;
+	border-bottom: 2px Solid lightgrey;
+}
+
+th,
+td {
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* change the font family and spacing as per your project font */
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	position: absolute;
+	top: 630px;
+	margin-left: 30px;
+	/*top: 750px;*/
+	font-size: 18px;
+	font-family: Nunito Sans;
+	font-style: normal;
+}
