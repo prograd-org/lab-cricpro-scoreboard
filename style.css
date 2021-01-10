@@ -1,16 +1,114 @@
 /* Type your code here */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+
+
+*{
+	margin: 0px;
+	padding: 0px;
 }
+
+body{
+	
+	background-image: url(./assets/background-image1.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+	font-size: small;
+	background-attachment:cover;
+	background-position: bottom right;
+
+	font-family:'Roboto', sans-serif;
+	
+
+}
+
+.container{
+	
+	margin-left: 50px;
+
+}
+
+.header{
+	padding: 50px;
+	display: flex;
+	justify-content: flex-end;
+}
+.footer{
+	display: flex;
+	align-content: bottom;
+	justify-content: flex-end;
+}
+
+
+table{
+	background-color: white;
+	width:700px;
+	max-height: 80vh;
+	
+}
+
+th,td{
+	padding: 6px;	
+	
+}
+
+
+table .one {
+	font-size: large;
+	background-color:orangered;
+	color: white;
+	
+}
+table .two {
+	font-size: medium;
+	font-weight: bold;
+	
+}
+
+table  .three, .four, .five, .six, .seven,.eight { 
+
+	font-size: medium;
+
+	
+	
+}
+
+table  .nine, .ten, .eleven { 
+
+	font-size: medium;
+	
+	
+}
+
+
+
+a:link{
+	color: #5E9CF1;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #5E9CF1;
+	text-decoration: none;
+}
+
+a:hover{
+	
+}
+
+.subhead_txt{
+	
+	font-size: larger;
+	color: grey;
+	font-weight: bolder;
+}
+
+.head_txt{
+	clear: right;
+	font-weight:bolder;
+	font-size: xx-large;
+	text-shadow: 2px 2px gray;
+	letter-spacing: 2px;
+}
+
