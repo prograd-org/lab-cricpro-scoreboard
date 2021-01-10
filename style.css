@@ -1,6 +1,6 @@
 /* Type your code here */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap');
 /* change the font family and spacing as per your project font */
 
 
@@ -18,8 +18,9 @@ body{
 	background-attachment:cover;
 	background-position: bottom right;
 
-	font-family:'Roboto', sans-serif;
-	
+	/* font-family:'Raleway', sans-serif; */
+	font-family: 'Dosis', sans-serif;
+	font-weight: 600;
 
 }
 
@@ -34,6 +35,8 @@ body{
 	padding-right: 100px;
 	display: flex;
 	justify-content: flex-end;
+	
+	font-family: 'Big Shoulders Stencil Text', cursive  !important;
 }
 .footer{
 	justify-content: flex-end;
