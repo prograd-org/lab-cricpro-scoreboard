@@ -8,9 +8,85 @@
     align-content: flex-end;
 	position: relative;
 	top: 750px;
-	margin-left: 80px;
+	margin-left: 0px;
 	font-size: 18px;
-	font-family: Nunito Sans;
+	font-family:verdana;
     font-style: normal;
     
 }
+body{
+	background-image: url("./assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+  background-position: right bottom; 
+	font-family:sans-serif;
+	padding-left: 70px;	
+
+}
+
+
+/* change the font family and spacing as per your project font */
+ #logo{
+	display: flex;
+	justify-content: flex-end;
+}
+h1
+{
+	font-size: 35px;
+	padding: 0px;
+	margin-bottom: 0;
+	text-shadow: 0px 3px lightgrey;
+	
+}
+h2{
+	color:grey;
+	font-size: 20px;
+	margin-top: 0;
+
+}
+table{
+	border: 1px solid lightgrey;
+	font-size: 16px;
+	border-collapse: collapse;
+	width: 73%;
+	height: 380px;
+	background-color: white;	
+	padding-left:50px;
+}
+tr
+{
+	border-bottom: 2px solid lightgrey;	
+	text-align:left;
+
+}
+tr>th{
+
+	padding: 7px;
+}
+tr>td{
+	padding: 7px;
+}
+#first-row{
+	background-color:rgb(233, 66, 5) ;
+	color:white;
+	font-weight: lighter;
+}
+#text{
+	color: grey;
+}
+a{
+	text-decoration: none;
+	color:skyblue;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 0px;
+	top: 20px;
+	margin-top: 0px;
+	font-size: 18px;
+	font-family:verdana;
+    font-style: normal;}
