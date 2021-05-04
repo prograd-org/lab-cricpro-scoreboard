@@ -1,16 +1,94 @@
 /* Type your code here */
-
-
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+header {
+	display: block;
+	float: right;
+ 
+ }
+ 
+ body {
+	background-image: url('./assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-position-x: right;
+	/* background-attachment: fixed; */
+ }
+ 
+ .cup {
+ 
+	margin-top: 50px;
+ 
+	margin-left: 100px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 40px;
+	text-shadow: 3px 3px 3px rgb(124, 122, 122);
+ }
+ 
+ .scorecard {
+	display: flex;
+	margin-left: 100px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20px;
+	color: grey;
+	align-items: flex-end;
+ }
+ 
+ 
+ table {
+	width: 700px;
+	height: 300px;
+	border: 1px;
+	margin-left: 100px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: normal;
+	background-color: white;
+	border-color: gray;
+	padding: 1px;
+	box-shadow: 5px 10px 18px #888888;
+ 
+ 
+ }
+ 
+ #firstrow {
+	background-color: #f73030;
+	color: white;
+ }
+ 
+ th {
+	text-align: left;
+	column-gap: 40px;
+ }
+ 
+ .links {
+	text-decoration: none;
+ }
+ 
+ 
+ #value {
+	text-align: right;
+ }
+ 
+ .status {
+	color: gray;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: small;
+ 
+ }
+ 
+ #middle {
+	text-align: center;
+ }
+ 
+ 
+ 
+ .footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
-	top: 750px;
+	top: 80px;
 	margin-left: 80px;
 	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
-}
+	font-family: 'Nunito Sans', sans-serif;
+ 
+ }
+
+/* change the font family and spacing as per your project font */
