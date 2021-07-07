@@ -1,16 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	background-image: url("./assets/background-image1.png");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+nav {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+header {
+	display: grid;
+	margin-bottom: 40px;
+}
+
+header h1 {
+	font-size: 80px;
+	display: grid;
+	grid-column: 3/10;
+}
+
+header h4 {
+	font-size: 50px;
+	font-weight: 100;
+	color: gray;
+	display: grid;
+	grid-column: 3/10;
+}
+
+.break {
+	display: block;
+}
+
+.grid-container {
+	display: grid;
+	grid-row: repeat(11, 1fr);
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.grid1 {
+	background-color: orangered;
+	border: 1px solid lightgray;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 5px 5px;
+	font-size: 40px;
+}
+
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9,
+.grid10,
+.grid101 {
+	display: grid;
+	padding: 5px 5px;
+	font-size: 40px;
+}
+
+.grid11 {
+	grid-column: 1/2;
+	text-align: left;
+	margin-left: 80px;
+}
+
+.grid2 {
+	grid-template-columns: repeat(6, fr);
+	grid-template-rows: 1fr;
+}
+
+.grid12 {
+	grid-column: 2/3;
+	text-align: right;
+	margin-right: 80px;
+}
+
+
+.grid21 {
+	grid-column: 1/10;
+	text-align: left;
+	margin-left: 80px;
+}
+
+.grid22 {
+	grid-column: 10/11;
+}
+
+.grid23 {
+	grid-column: 11/12;
+}
+
+.grid24 {
+	grid-column: 12/13;
+}
+
+.grid25 {
+	grid-column: 13/14;
+}
+
+.grid26 {
+	grid-column: 14/15;
+}
+
+.grid2 {
+	background-color: #ffffff;
+	border: 1px solid lightgray;
+}
+
+.grid3 {
+	background-color: #ffffff;
+	border: 1px solid lightgray;
+	grid-template-columns: repeat(7, fr);
+
+}
+
+.grid31 {
+	grid-column: 1/4;
+	margin-left: 80px;
+}
+
+.grid32 {
+	grid-column: 4/6;
+}
+
+.grid33 {
+	grid-column: 6/7;
+	margin-right: 15px;
+}
+
+.grid34 {
+	grid-column: 7/8;
+	margin-right: 15px;
+}
+
+.grid35 {
+	grid-column: 8/9;
+}
+
+.grid36 {
+	grid-column: 9/10;
+}
+
+.grid37 {
+	grid-column: 10/11;
+}
+
+
+
+.grid4 {
+	background-color: #ffffff;
+	border: 1px solid lightgray;
+}
+
+.grid41 {
+	grid-column: 1/2;
+	margin-left: 80px;
+}
+
+.grid42 {
+	grid-column: 2/6;
+	margin-left: 10px;
+}
+
+.grid43 {
+	grid-column: 6/8;
+
+	margin-right: 15px;
+}
+
+.grid44 {
+	grid-column: 8/10;
+
+	margin-right: 15px;
+}
+
+.grid45 {
+	grid-column: 10/12;
+	margin-right: 15px;
+}
+
+.grid46 {
+	grid-column: 12/13;
+
+	margin-right: 15px;
+}
+
+.grid47 {
+	grid-column: 13/14;
+}
+
+.grid5 {
+	background-color: #ffffff;
+	border: 1px solid lightgray;
+}
+
+.grid51 {
+	grid-column: 1/4;
+	margin-left: 80px;
+}
+
+.grid52 {
+	grid-column: 4/6;
+	margin-right: 75px;
+}
+
+.grid53 {
+	grid-column: 6/7;
+}
+
+.grid54 {
+	grid-column: 7/8;
+}
+
+.grid55 {
+	grid-column: 8/9;
+}
+
+.grid56 {
+	grid-column: 9/10;
+}
+
+.grid57 {
+	grid-column: 10/11;
+}
+
+.grid6 {
+	background-color: #ffffff;
+	border: 1px solid lightgray;
+}
+
+.grid61 {
+	grid-column: 1/4;
+	margin-left: 80px;
+}
+
+.grid62 {
+	grid-column: 4/6;
+	margin-right: 60px;
+}
+
+.grid63 {
+	grid-column: 6/7;
+	margin-left: 50px;
+}
+
+.grid64 {
+	grid-column: 7/8;
+}
+
+.grid65 {
+	grid-column: 8/9;
+}
+
+.grid66 {
+	grid-column: 9/10;
+}
+
+.grid67 {
+	grid-column: 10/11;
+}
+
+.grid7 {
+	background-color: #ffffff;
+	border: 1px solid lightgrayk;
+}
+
+.grid71 {
+	grid-column: 1/4;
+	margin-left: 80px;
+}
+
+.grid72 {
+	grid-column: 4/6;
+	margin-left: 170px;
+}
+
+.grid73 {
+	grid-column: 6/7;
+	margin-left: 120px;
+}
+
+.grid74 {
+	grid-column: 7/8;
+}
+
+.grid75 {
+	grid-column: 8/9;
+}
+
+.grid76 {
+	grid-column: 9/10;
+}
+
+.grid77 {
+	grid-column: 10/11;
+}
+
+.grid8 {
+	background-color: #ffffff;
+	border: 1px solid lightgray;
+}
+
+.grid81 {
+	grid-column: 1/4;
+	margin-left: 80px;
+}
+
+.grid82 {
+	grid-column: 4/6;
+	margin-left: 100px;
+}
+
+.grid83 {
+	grid-column: 6/7;
+	margin-left: 100px;
+}
+
+.grid84 {
+	grid-column: 7/8;
+}
+
+.grid85 {
+	grid-column: 8/9;
+}
+
+.grid86 {
+	grid-column: 9/10;
+}
+
+.grid87 {
+	grid-column: 10/11;
+}
+
+.grid9 {
+	background-color: #ffffff;
+	border: 1px solid lightgray;
+}
+
+.grid91 {
+	grid-column: 1/10;
+	margin-left: 80px;
+}
+
+.grid92 {
+	grid-column: 10/12;
+}
+
+.grid10 {
+	background-color: #ffffff;
+	border: 1px solid lightgray;
+}
+
+.grid1001 {
+	grid-column: 1/10;
+	margin-left: 80px;
+}
+
+.grid1002 {
+	grid-column: 10/12;
+}
+
+.grid101 {
+	background-color: #ffffff;
+	border: 1px solid lightgray;
+	display: grid;
+}
+
+.grid1011 {
+	grid-column: 1/5;
+	margin-left: 80px;
+}
+
+.grid1012 {
+	grid-column: 5/10;
+	font-size: 30px;
+	/* margin-right: 200px; */
+	/* margin-right: 1px; */
+}
+
+
+
 /* Type your code here */
 
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
 	top: 750px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+
 }
