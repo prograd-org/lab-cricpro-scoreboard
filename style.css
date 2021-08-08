@@ -1,6 +1,14 @@
 /* Type your code here */
-
-
+* {
+	font-family: sans-serif;
+}
+body {
+	background: url("assets/background-image1.png");
+	background-size: cover;
+}
+body>img {
+	float: right;
+}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
