@@ -1,24 +1,121 @@
 /* Type your code here */
 * {
-	font-family: sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
 }
 body {
-	background: url("assets/background-image1.png");
-	background-size: cover;
+
+
+	margin-left: 9%;
+}
+body::before{
+	content: "";
+	background: url("assets/background-image1.png") no-repeat;
+	background-size: 75%;
+	background-position-x: right;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0.5;
+	position: absolute;
 }
 body>img {
-	float: right;
+	position: absolute;
+	left: 80%;
+	top: 5;
+}
+body>h1 {
+	font-size: 42pt;	
+}
+body>h2 {
+	color: gray;
+}
+.table {
+	display: grid;
+	background: grey;
+	width: 65%;
+	align-content: center;
+	justify-content: center;
+	/* grid-row-gap: 1px; */
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	height: 460px;
+	box-shadow: 0 1px 1px 0 grey;
+	outline: none;
+	border: none;
+}
+.table>div {
+	background: white;
+	align-content: center;
+	justify-content: center;
+	display: grid;
+	padding-left: 30px;
+}
+.table>div.row1 {
+	background: orangered;
+	display: grid;
+	grid-template-columns: 6fr 1fr;
+}
+.table>div.row2 {
+	background: snow;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr 60px 60px 60px 60px 90px;
+	border-bottom: solid 2px grey;
+}
+.table>div.row3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 36%;
+	border-bottom: solid 2px grey;
+}
+.table>div.row4 {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	height: 40px;
+}
+.row2-head {
+	font-weight: bold;
+}
+.row2{
+	position: relative;
+	align-items: center;
+}
+.row2 span:first-child {
+	justify-self: start;
+}
+.row2 span:nth-child(2) {
+	justify-self: start;
+}
+.row2 span:nth-child(3) {
+	font-weight: bold;
+}
+.row2>span{
+	justify-self: center;
+}
+.row2 span:last-child {
+	justify-self: end;
+	padding-right: 20px;
+}
+#row1-text1 {
+	font-weight: bold;
+	color: white;
+	grid-column-start: 1;
+}
+#row1-text2 {
+	font-weight: bold;
+	color: white;
+	grid-column-start: 2;
 }
 /* change the font family and spacing as per your project font */
-.footer{
+.footer {
     display:flex;
     flex-direction: row;
     align-content: flex-end;
-	position: relative;
-	top: 750px;
+	position: absolute;
+	top: 720px;
 	margin-left: 80px;
 	font-size: 18px;
-	font-family: Nunito Sans;
+	font-family: 'Nunito', sans-serif;
     font-style: normal;
     
 }
