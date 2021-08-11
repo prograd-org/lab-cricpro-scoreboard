@@ -1,16 +1,165 @@
 /* Type your code here */
-
-
+* {
+	font-family: 'Nunito Sans', sans-serif;
+}
+body {
+	margin-top: 50px;
+	margin-left: 9%;
+}
+body::before{
+	content: "";
+	background: url("assets/background-image1.png") no-repeat;
+	background-size: 75%;
+	background-position-x: right;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0.5;
+	position: absolute;
+}
+body>img {
+	position: absolute;
+	left: 80%;
+	top: 10px;
+	outline: none;
+}
+.head-1 {
+	font-size: 38pt;
+	font-weight: bold;
+	text-shadow:  0 5px 3px gray;
+}
+.head-2 {
+	color: gray;
+	font-size: 20pt;
+	font-weight: bold;
+}
+.table {
+	margin-top: 30px;
+	display: grid;
+	background: grey;
+	width: 65%;
+	align-content: center;
+	justify-content: center;
+	/* grid-row-gap: 1px; */
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	height: 460px;
+	box-shadow: 0 1px 1px 0 grey;
+	outline: none;
+	border: none;
+}
+.table>div {
+	background: white;
+	align-content: center;
+	justify-content: center;
+	display: grid;
+	padding-left: 30px;
+}
+.table>div.row1 {
+	background: orangered;
+	display: grid;
+	grid-template-columns: 6fr 1fr;
+}
+.table>div.row2 {
+	background: snow;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr 60px 60px 60px 60px 90px;
+	border-bottom: solid 2px grey;
+}
+.table>div.row3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 36%;
+	border-bottom: solid 2px grey;
+}
+.table>div.row4 {
+	display: grid;
+	grid-template-columns: 220px 110px 135px 110px 100px 210px;
+	height: 40px;
+}
+.row2-head {
+	font-weight: bold;
+}
+.row2{
+	position: relative;
+	align-items: center;
+}
+.row2 span:first-child {
+	justify-self: start;
+}
+.row2 span:nth-child(2) {
+	justify-self: start;
+}
+.row2 span:nth-child(3) {
+	font-weight: bold;
+}
+.row2>span{
+	justify-self: center;
+}
+.row2 span:last-child {
+	justify-self: end;
+	padding-right: 20px;
+}
+#row1-text1 {
+	font-weight: bold;
+	color: white;
+	grid-column-start: 1;
+}
+#row1-text2 {
+	font-weight: bold;
+	color: white;
+	grid-column-start: 2;
+}
 /* change the font family and spacing as per your project font */
-.footer{
+.footer {
     display:flex;
     flex-direction: row;
     align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	position: absolute;
+	top: 680px;
 	font-size: 18px;
-	font-family: Nunito Sans;
+	font-family: 'Nunito', sans-serif;
     font-style: normal;
     
+}
+/* popup container */
+.popup {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: skyblue;
+}
+.popup:hover {
+	border-bottom: skyblue solid;
+}
+/* The Popup */
+.popup .popupimg {
+	visibility: hidden;
+	width: 160px;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+	left: 25%;
+	margin-left: -20px;
+}
+/* popup */
+.popup .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+}
+
+/* add animation  */
+@-webkit-keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
