@@ -11,9 +11,9 @@
     <!-- Top right corner logo -->
     <img src="assets/Logo.JPG" alt="Logo">
     <!-- Heading -->
-    <h1>ICC WORLD CUP 2011</h1>
+    <span class="head-1">ICC WORLD CUP 2011</span><br>
     <!-- Sub-Heading -->
-    <h2>India Vs SriLanka ScoreCard</h4>
+    <span class="head-2">India Vs SriLanka ScoreCard</span>
         <!-- Table Container -->
         <div class="table">
             <div class="row1">
@@ -27,19 +27,26 @@
                 <span>B</span>
                 <span>4s</span>
                 <span>6s</span>
-                <span class="f-right">SR</span>
+                <span>SR</span>
             </div>
+            <!-- Let the Player Details pop -->
             <div class="row2">
-                <span>Virender Sehwag</span>
+                <span class="popup" onclick="Sehwag()">
+                    Virender Sehwag
+                    <!-- PopUp Image -->
+                    <span class="popupimg" id="myPopup-1"><img src="assets/Player6.png" alt="popup"></span>
+                </span>
                 <span>lbw b L Malinga</span>
                 <span>0</span>
                 <span>2</span>
                 <span>0</span>
                 <span>0</span>
-                <span class="f-right">0.00</span>
+                <span>0.00</span>
             </div>
             <div class="row2">
-                <span>Sachin Tendulkar</span>
+                <span class="popup" onclick="Sachin()">Sachin Tendulkar
+                    <span class="popupimg" id="myPopup-2"><img src="assets/Player5.png" alt="popup"></span>
+                </span>
                 <span>c K Sangakarra b L Malinga</span>
                 <span>18</span>
                 <span>14</span>
@@ -48,7 +55,9 @@
                 <span>128.57</span>
             </div>
             <div class="row2">
-                <span>Gautam Gambhir</span>
+                <span class="popup" onclick="Gambhir()">Gautam Gambhir
+                    <span class="popupimg" id="myPopup-3"><img src="assets/Player4.png" alt="popup"></span>
+                </span>
                 <span>b T Perera</span>
                 <span>97</span>
                 <span>122</span>
@@ -57,7 +66,9 @@
                 <span>79.51</span>
             </div>
             <div class="row2">
-                <span>Virat Kohli</span>
+                <span class="popup" onclick="Kohli()">Virat Kohli
+                    <span class="popupimg" id="myPopup-4"><img src="assets/Player3.png" alt="popup"></span>
+                </span>
                 <span>c & b T Dilshan</span>
                 <span>35</span>
                 <span>49</span>
@@ -66,7 +77,9 @@
                 <span>71.43</span>
             </div>
             <div class="row2">
-                <span>MS Dhoni (c & wk)</span>
+                <span class="popup" onclick="Dhoni()">MS Dhoni (c & wk)
+                    <span class="popupimg" id="myPopup-5"><img src="assets/Player2.png" alt="popup"></span>
+                </span>
                 <span>not out</span>
                 <span>91</span>
                 <span>79</span>
@@ -75,7 +88,9 @@
                 <span>115.19</span>
             </div>
             <div class="row2">
-                <span>Yuvraj Singh</span>
+                <span class="popup" onclick="Yuvraj()">Yuvraj Singh
+                    <span class="popupimg" id="myPopup-6"><img src="assets/Player1.png" alt="popup"></span>
+                </span>
                 <span>not out</span>
                 <span>21</span>
                 <span>24</span>
@@ -95,9 +110,24 @@
             </div>
             <div class="row4">
                 <span>Did not bat</span>
-                <span>Suresh Raina, Harbhajan Singh, Zaheer Khan, Munaf Patel, S Sreesanth</span>
+                <span class="popup" onclick="Raina()">Suresh Raina,
+                    <span class="popupimg" id="myPopup-7"><img src="assets/Player1-1.jpg" alt="popup"></span>
+                </span>
+                <span class="popup" onclick="Harbhajan()"> Harbhajan Singh,
+                    <span class="popupimg" id="myPopup-8"><img src="assets/Player1-2.jpg" alt="popup"></span>
+                </span>
+                <span class="popup" onclick="Zaheer()"> Zaheer Khan,
+                    <span class="popupimg" id="myPopup-9"><img src="assets/Player1-3.jpg" alt="popup"></span>
+                </span>
+                <span class="popup" onclick="Munaf()"> Munaf Patel,
+                    <span class="popupimg" id="myPopup-10"><img src="assets/Player1-4.jpg" alt="popup"></span>
+                </span>
+                <span class="popup" onclick="Sreesanth()"> S Sreesanth
+                    <span class="popupimg" id="myPopup-11"><img src="assets/Player1-5.jpg" alt="popup"></span>
+                </span>
             </div>
         </div>
     <footer class="footer">Made with<img src="assets/prograd-heart.svg">by ProGrad</footer>
+    <script src="app.js"></script>
 </body>
 </html>
