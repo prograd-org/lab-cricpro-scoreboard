@@ -60,10 +60,10 @@ p{
 	margin-left: 70px;
 	padding: 10px;
 }
-a>div{
+a img{
 	display: none;
 }
-a>div:hover{
+a:hover img{
 	display: block;
 }
 
