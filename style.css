@@ -2,15 +2,68 @@
 
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+body{
+	background:url(/assets/background-image1.png);
+	background-repeat:space;
+	background-size: 60rem;
+	background-position: 100% 100%;
+	background-color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	height: 100%
+	;
 }
+#logo{
+	margin-top: 20px;
+	position: relative;
+	left: 1100px;
+}
+#div1{
+	margin-left: 70px;
+	font-size: 50px;
+	font-weight: bold;
+}
+#div2{
+	margin-left: 70px;
+	font-size: 20px;
+	color: gray;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+	color: dodgerblue;
+}
+table{
+	margin-top: 50px;
+	margin-left: 70px;
+	font-size: 15px;
+	background:white;
+	width: 850px;
+	height: 300px;
+	border-collapse: collapse;
+}
+th,td{
+	border-bottom:2px solid rgb(221, 219, 219);
+	text-align: left;
+	padding: 10px;
+}
+#firstrow{
+	border-collapse: collapse;
+	background-color: orangered;
+	color: white;
+	
+}
+a:hover{
+	background-image: url(d);
+	visibility: visible;
+}
+p{
+	margin-left: 70px;
+	padding: 10px;
+}
+a img{
+	display: none;
+}
+a:hover img{
+	display: block;
+}
+
