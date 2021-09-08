@@ -1,12 +1,5 @@
 /* Type your code here */
 
-body { 
-    background-image: url('assets/background-image1.png'); 
-     background-repeat: no-repeat; 
-      background-position: bottom right;
-     background-size: cover;
-     height: 50%;
-   } 
   header{
       display: flex;
       position: relative;
