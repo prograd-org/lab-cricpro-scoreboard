@@ -5,12 +5,67 @@
 .footer{
     display:flex;
     flex-direction: row;
-    align-content: flex-end;
+    align-items: flex-end;
 	position: relative;
 	top: 750px;
-	margin-left: 80px;
+	margin-left: 0px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
     
 }
+
+.logo{
+	display: flex;
+	flex-direction: row-reverse;
+
+}
+
+.score{
+	color:gray;
+	line-height: 1;
+}
+
+
+.innings{
+	text-align: left;
+	background-color: orangered;
+	color:white;
+}
+
+.total
+{
+	background-color: orangered;
+	text-align: right;
+	border-right:none ;
+	color:white;
+}
+td{
+	background:white;
+	border-collapse:collapse;
+	padding-right:40px;
+	border-top: none;
+	border-bottom-color: gray;
+	
+	
+}
+
+th{
+	background: orangered;
+	border-collapse:collapse;
+
+}
+.table{
+	position:absolute;
+	top:150px;
+	width: 100%;
+	
+	
+}
+
+.background{
+	position:absolute;
+	top:100px;
+}
+
+
