@@ -7,10 +7,44 @@
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
+	top: 650px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
     
 }
+.cup{
+	margin-left: 25px;
+	background-image:url("back.png") ; 
+}
+.ttop{ margin: 30px;
+	background-color: rgb(223, 64, 64);
+	color: white;
+
+}
+th, td {
+	border-bottom: 1px solid #ddd;
+  }
+  th {
+	text-align: left;
+	color: white;
+  }
+  table {
+	border-collapse: collapse;
+	background-color: seashell;
+	
+  }
+  th, td {
+	padding: 10px;}
+	body {
+		background-image: url('back.png');
+	  }
+	  h1,h3{
+		  font-family: Georgia, 'Times New Roman', Times, serif;
+		  text-shadow: black;
+	  }
+
+	  
+
+  
