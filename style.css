@@ -7,10 +7,97 @@
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	top: 20px;
+	margin-left: 30px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
     
+}
+#logo{
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 10px;
+}
+#innings{
+	margin-left: 0px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(240, 87, 87);
+	padding: 10px 10px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	height: 60px;
+	width: 1060px;
+	font-family: Nunito Sans;
+}
+a {
+	text-decoration: none;
+	color: blue;
+	font-family: Nunito Sans;
+}
+
+.bowler {
+	color: grey;
+	font-family: Nunito Sans;
+}
+#left {
+	text-align: left;
+	padding-left: 20px;
+	font-family: Nunito Sans;
+}
+#center {
+	text-align: center;
+	font-family: Nunito Sans;
+}
+#right {
+	text-align: right;
+	padding-right: 40px;
+	font-family: Nunito Sans;
+}
+table {
+	margin-left: 10px;
+	font-size: 20px;
+	border-collapse: collapse;
+	height: 400px;
+	width: 1100px;
+	background-color: white;
+	font-family: Nunito Sans;
+}
+body{
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family: Nunito Sans;
+}
+
+h1+p {
+	margin-left: 40px;
+	margin-bottom: 30px;
+	font-size: 25px;
+	font-weight: 700;
+	color: darkgrey;
+	font-family: Nunito Sans;
+}
+h1 {
+	margin-left: 40px;
+	margin-bottom: 1px;
+	padding-top: 10px;
+
+	font-size: 50px;
+	font-weight:bolder;
+	text-shadow: 2px 2px 5px grey;
+	font-family: Nunito Sans;
+}
+p {
+	margin-left: 40px;
+	margin-top: 1px;
+	 padding-top: 1px; 
+	 margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Nunito Sans;
+}
+th,td{
+	border-bottom: 1px solid lightgray;
 }
