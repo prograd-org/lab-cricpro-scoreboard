@@ -1,16 +1,82 @@
-/* Type your code here */
-
-
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+body{
+	background-image:url(assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-size: 65%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-position-x: 500px;
+	background-position-y:bottom;	
+}
+.logo{
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 50px 50px 0px 0px;
+}
+table{
+	background: white;
+	font-size: 15px;
+	border-collapse: collapse;
+	font-weight: 600;
+}
+p{
+	font-size: 50px;
+	font-weight: bolder;
+	line-height: 30px;
+	text-shadow: 2px 2px lightgray;
+}
+p>strong{
+	text-shadow: none;
+	font-size: 25px;
+	line-height: 10px;
+	color: gray;
+}
+.innings{
+	background-color: coral;
+	color: white;
+	text-align: left;
+	padding-left: 16px;
+	line-height: 30px;
+}
+.runs{
+	background-color: coral;
+	color: white;
+	text-align: right;
+	padding-right: 15px;
+	line-height: 30px;
+}
+.batsmen{
+	text-align: left;
+	padding-left: 15px;
+	width: 200px;
+}
+.bowler{
+	color: gray;
+	width: 200px;
+}
+.score{
+	text-align: right;
+	width: 30px;
+	padding-right: 15px;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+.b1{
+	padding-left: 16px;
+}
+.b2{
+	padding-left: 71.5px;
+}
+td{
+	padding: 10px;
+	border-bottom: 2px solid lightgray;
+}
+th{
+	padding: 10px;
+}
+.r2{
+	border-bottom: 2px solid lightgray;
+}
+.container{
+	margin-left: 50px;
 }
