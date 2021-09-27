@@ -3,7 +3,7 @@
 
 /* change the font family and spacing as per your project font */
 body{
-	background:url(/assets/background-image1.png);
+	background:url(./assets/background-image1.png);
 	background-repeat:space;
 	background-size: 60rem;
 	background-position: 100% 100%;
