@@ -1,16 +1,136 @@
 /* Type your code here */
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* change the font family and spacing as per your project font */
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 .footer{
-    display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	top: 660px;
+	margin-left: 5px;
 	font-size: 18px;
-	font-family: Nunito Sans;
     font-style: normal;
-    
+	font-weight: bold;
+}
+
+#bg-img{
+	flex-direction: row;
+	margin-top: 0px;
+	margin: 2px;
+	height: 70vh;
+	width: 150vh;
+	background-position: right;
+    background-repeat: no-repeat;
+	position: relative;
+}
+h1{
+	font-size: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bolder;
+	text-shadow: grey;
+}
+h4{
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	color: grey;
+}
+body{
+	margin-left: 50px;
+}
+table{
+	display: table;
+	position: absolute;
+	height: 480px;
+  	text-align: left;
+  	padding: 8px;
+	margin-left: 8px;
+	margin-bottom: 8px;
+	background-color: white;
+	border-collapse: collapse;
+	width:64%;
+}
+.row1{
+	height: 50px;
+	background-color: orangered;
+	color: white;
+	flex-direction: row;
+	align-content: center;
+}
+#th1{
+
+	background-color:orangered;
+	color:white;
+}
+#th2{
+
+	background-color:orangered;
+	color:white;
+}
+.row2{
+	border: px solid #ddd;
+	background-color: whitesmoke;
+	border: 1px solid #ddd;
+	color: black;
+	font-weight: bold;
+}
+.row3{
+	border: 1px solid #ddd;
+}
+.row4{
+	border: 1px solid #ddd;
+}
+.row5{
+	border: 1px solid #ddd;
+}
+.row6{
+	border: 1px solid #ddd;
+}
+.row7{
+	border: 1px solid #ddd;
+}
+.row8{
+	border: 1px solid #ddd;
+}
+.row9{
+	border: 1px solid #ddd;
+}
+.row10{
+	border: 1px solid #ddd;
+}
+.row11{
+	border: 1px solid #ddd;
+}
+.tabData1{
+	color: #007fff;
+}
+.tabData2{
+	color: gray;
+}
+.tabData3{
+	color: black;
+	font-weight: bold;
+	padding-right: 10px;
+	text-shadow: 0 0 10px 0 black;
+}
+.tabData4{
+	color: black;
+	font-weight: bold;
+}
+.tabData5{
+	color: black;
+	font-weight: bold;
+}
+.tabData6{
+	color: #007fff;
 }
