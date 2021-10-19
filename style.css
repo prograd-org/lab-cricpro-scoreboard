@@ -14,3 +14,75 @@
     font-style: normal;
     
 }
+#background 
+{
+	background-image: url(assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin-top: 30px;
+}
+.a1{
+	text-align: left;
+	padding-left: -50px;
+	
+}
+.a2{
+	text-align: right;
+	padding-right: -50px;
+	
+}
+h1{
+	padding-top: 80px;
+	margin-left: 40px;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px grey;
+
+}
+h3{
+	font-size: 30px;
+	margin-left: 40px;
+	color: grey;
+	margin-top: -10px;
+
+}
+table{
+	border-collapse: collapse;
+	margin-left: 40px;
+	font-size: 20px;
+	background-color: white;
+	height: 400px;
+	width: 1000px;
+	
+}
+td,th{
+	border-bottom: 1px grey solid;
+}
+#left{
+	text-align: left;
+	padding-left: 30px;
+}
+#right{
+	text-align: right;
+	padding-right: 30px;
+}
+#center{
+	text-align: center;
+}
+.footer{
+	margin-left: 40px;
+	font-size: 18px;
+	margin-top: -730px;
+}
+#in{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	background-color: orangered;
+	margin-left: 40px;
+	padding: 8px 18px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width:965px;
+
+}
+
