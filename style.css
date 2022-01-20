@@ -1,16 +1,60 @@
 /* Type your code here */
 
-
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+h1 {
+  font-style: bold;
+}
+body {
+  background-image: url(assets/background-image1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 80%;
+  margin-left: 70px;
+}
+.sr {
+  text-align: right;
+}
+.status {
+  color: grey;
+}
+#container {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+table {
+  width: 65%;
+
+  font-size: 1.5rem;
+  border-collapse: collapse;
+  font-weight: bolder;
+  background-color: white;
+}
+tr {
+  border: solid;
+  border-color: grey;
+  border-width: 2px 0;
+}
+td {
+  padding: 15px;
+}
+#mainlogo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
 }
