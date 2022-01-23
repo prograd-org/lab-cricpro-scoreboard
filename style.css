@@ -1,5 +1,145 @@
-/* Type your code here */
+* {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+}
 
+body {
+    background: url(./assets/background-image1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 0;
+	padding-top: 0;
+    height: 51em;
+}
+
+.main_logo{
+
+	margin-top: 20px;
+	margin-right: 30px;
+	text-align: right;
+}
+
+
+.container {
+
+	margin-left: 25px;
+
+}
+
+.heading1 {
+	font-weight: bolder;
+	line-height: 0px;
+	text-shadow: 2px 2px 5px grey;
+}
+
+.heading2 {
+	font-weight: bolder;
+	color: grey;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.modal {
+
+	width: 50%;
+	box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.modal-header {
+	background-color: orangered;
+	color: white;
+	line-height: 25px;
+	height: 30px;
+}
+
+.modal-header h3 {
+	margin: 10px;
+	text-align: left;
+	font-weight: normal;
+}
+
+.run {
+	float: right;
+	margin-right: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	font-weight: 600;
+}
+
+.modal-body {
+	background-color: white;
+}
+
+th, td {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.extras {
+	text-align: left;
+}
+
+table tr {
+	border-bottom: 1px solid lightgrey;
+}
+table tr:last-child { 
+    border-bottom: none; 
+}
+
+.Player1, .Player2, .Player3, .Player4, .Player5, .Player6, .Player1-1,
+.Player1-2, .Player1-3, .Player1-4, .Player1-5 {
+
+	text-decoration: none;
+	color: rgb(0, 238, 255);
+
+}
+
+.popup {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  .popup .popuptext {
+	visibility: hidden;
+	color: #fff;
+	z-index: 1;
+	text-align: center;
+	border-radius: 6px;
+	position: absolute;
+	margin-left: -80px;
+  }
+  
+ .popup .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+  }
+  
+  .grey {
+
+	color: grey;
+
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+	from {opacity: 0;} 
+	to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity:1 ;}
+  }
 
 /* change the font family and spacing as per your project font */
 .footer{
@@ -7,10 +147,17 @@
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	top: 90px;
+	margin-left: 30px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
     
+}
+
+.footer img {
+
+	margin-left: 5px;
+	margin-right: 5px;
+
 }
