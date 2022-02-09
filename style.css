@@ -1,5 +1,59 @@
 /* Type your code here */
+.header{
+	padding: 0% 0% 0% 85%;
+	margin: 0;
+}
 
+h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-size: 2em;
+    color: gray;
+}
+
+table {
+    width: 55%;
+    justify-content: center;
+    font-size: 1.5em;
+    padding: 5px;
+    background-color: white;
+}
+
+td {
+    margin: 1px;
+    padding: 5px;
+    text-align: left;
+}
+
+#tr1 {
+    background-color: orangered;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 5px;
+    border: 0px solid #808080;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.table-container {
+    font-size: 0.5em;
+    display: flex;
+}
+
+a {
+    color: blue;
+    font: 18px solid;
+    justify-content: left;
+}
+
+p {
+    font: 18px solid;
+    justify-content: left;
+}
 
 /* change the font family and spacing as per your project font */
 .footer{
