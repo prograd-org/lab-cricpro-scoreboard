@@ -13,40 +13,5 @@ Woah! what an exciting finale! A cricket fan would cherish that moment.
 As a tribute to the Indian Cricket team, we at ProGrad wanted to build a ScoreBoard for our CricPro webiste. And we thought, who can do it better than our ProGrads?
 
 
-## What should you do
-```
-Fork this repo
-Clone this repo
-Practice JavaScript basics - operators, conditions, loops
-```
 
-## How To Submit
-```
-Upon completion, run the following commands:
-
-git add .
-git commit -m "ProGrad ID"
-git push origin master
-
-And finally, create a pull request so your ProGrad Mentor (PM) can review your work.
-```
-
-## Instructions
-The starter-code contains all the files, images, and text content needed to create the scoreboard. The text is in the index.html, and a css file is created in main.css. Font to be used should be Nunito Sans. Remember to follow the best practices.
-
-### Progression 1: Set the mood
-
-Use the background image and CricPro logo to recreate the atmosphere
-
-### Progression 2: Tabulate the scores
-
-Now, using the data in the below expected output, tabulate the scores of our players.
-
-### Progression 3: Let the details Pop up 
-Once you have tabulated the scores, create a pop up which opens up on clicking a player's name.
-
-## Expected Output
-Here is a screenshot of the expected output.
-![Image description](https://i1.faceprep.in/ProGrad/cricpro.png)
-
-Happy Coding ❤️
+Check My work Here : https://yash-3001.github.io/lab-cricpro-scoreboard/
