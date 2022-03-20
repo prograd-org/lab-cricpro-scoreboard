@@ -1,16 +1,74 @@
-/* Type your code here */
-
-
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:display=swap");
+* {
+  font-family: "Nunito Sans", sans-serif;
 }
+/* change the font family and spacing as per your project font */
+.footer {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  position: relative;
+  top: 10px;
+  margin-left: 5%;
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+
+}
+.first-box {
+  margin-left: 5%;
+  width: 60%;
+}
+body {
+  background-image: url(./assets/background-image1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+table {
+  border-collapse: collapse;
+  font-weight: bolder;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+tr {
+  border: solid;
+  border-color: gray;
+  border-width: 2px 0;
+}
+td {
+  padding: 10px 30px;
+}
+.logopic {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 80%;
+  height: 3rem;
+  width: 15rem;
+}
+.heading {
+  text-shadow: 0px 5px 4px #939393;
+  font-size: 75px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.teams {
+	color: #6a6a6a;
+	font-size: 25px;
+	margin-top: 0px;
+	font-weight: 700;
+	margin-bottom: 30px;
+  }
+  a {
+	text-decoration: none;
+	color: #1aa3ff;
+  }
+  .status {
+	color: gray;
+  }
+  
+  .right-align{
+	width: 1%;
+	text-align: right;
+  } 
